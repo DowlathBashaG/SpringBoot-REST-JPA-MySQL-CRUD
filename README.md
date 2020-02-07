@@ -108,6 +108,6 @@ This Repository contains Model, Repository ,Resource Folders.
  
  E: Create Post using Post Method (Specific User Id . Already implemented OneToMany and ManyToOne : http://localhost:9001/users/1/post
  
- F: Gelt All users and posts based on postId : http://localhost:9001/users/1/post/100
+ F: Get All users and posts based on postId : http://localhost:9001/users/1/post/100
       
       
