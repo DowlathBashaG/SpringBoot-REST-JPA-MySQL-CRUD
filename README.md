@@ -55,6 +55,11 @@ Step 4 :  IMPLEMENT THE IDENTIFIED ENDPOINTS
               return ReponseEntity.created(location).build();
          }
          
+         @DeletMapping("/uses/{id}")
+         public void deleteUser(@PathVariable int id){
+               userRepository.deleteById(id);
+         }
+         
          @GetMapping("/users/{id}/posts")
          public List<Post> retrieveAllPostsByUser(@PathVariable int id){
                 Optional<user> user= userRepository.findById(id);
