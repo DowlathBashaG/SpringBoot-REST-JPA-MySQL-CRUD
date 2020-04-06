@@ -214,8 +214,12 @@ Although GET is very often used to fetch data and POST to send/save it, we can c
 Resources
 
 https://restfulapi.net/idempotent-rest-apis/
+
 https://www.w3schools.com/tags/ref_httpmethods.asp
+
 https://restfulapi.net/http-methods/
+
 https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.htm
+
       
       
